@@ -11,4 +11,4 @@ let student={
 	return arr;
 },
 obj.__proto__=getKeys();
-console.log(obj.getKeys());
+obj.getKeys();
