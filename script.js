@@ -1,12 +1,12 @@
 //your JS code here. If required.
-let obj={
+let student={
 	name: "mina",
 };
 	funtion getKeys(){
 		let arr=[];
-		let a=0;
-	for(let i in obj){
-		arr[a]=i;
+	for(let i in student){
+		arr.push(i);
+		
 	}
 	return arr;
 },
