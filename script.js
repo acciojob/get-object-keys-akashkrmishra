@@ -11,4 +11,4 @@ let obj={
 	return arr;
 },
 obj.__proto__=getKeys();
-obj.getKeys();
+console.log(obj.getKeys());
